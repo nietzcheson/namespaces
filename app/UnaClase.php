@@ -1,5 +1,7 @@
 <?php
 
+namespace app\UnaClase;
+
 class UnaClase{
 
   public function demo(){

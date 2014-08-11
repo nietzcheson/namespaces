@@ -6,9 +6,11 @@
 
 include_once "autoload.php";
 
-$clase = new UnaClase();
+use app\config\config;
 
-echo $clase->demo();
+$clase = new config();
+
+echo $clase->config();
 
 
 ?>
